@@ -1,7 +1,4 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"features": {
-		"ghcr.io/thediveo/devcontainer-features/go-ebpf:0": {}
-	},
 	"postCreateCommand": "sudo apt -get update && sudo apt-get install -y libelf-dev"
 }
